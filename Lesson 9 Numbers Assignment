@@ -1,0 +1,30 @@
+# Lesson 9 Numbers Assignment - worked out in REPL.it workstation
+
+
+puts "Pick a whole number!"
+
+user_input = gets.chomp
+total1 = user_input.to_i + 20
+
+puts "Pick another number!"
+
+user_input2 = gets.chomp
+total2 = user_input2.to_i + 20
+
+puts "Pick one final number!"
+
+user_input3 = gets.chomp
+total3 = user_input3.to_i + 20
+
+"Twenty added to the numbers is #{total1}, #{total2} and #{total3}!"
+
+
+# OUTPUT:
+
+Pick a whole number!
+ 4
+Pick another number!
+ 2
+Pick one final number!
+ 1
+=> "Twenty added to the numbers is 24, 22 and 21!"
