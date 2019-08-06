@@ -1,0 +1,31 @@
+puts "Pick a whole number!"
+
+number = gets.chomp.to_i
+
+if number >= 20
+  puts "You chose a large number!"
+else
+  puts "You chose a small number"
+end
+
+puts "Pick another number!"
+
+number = gets.chomp.to_i
+
+if number >= 20
+  puts "You chose a large number!"
+else
+  puts "You chose a small number"
+end
+
+
+puts "Pick one final number"
+
+user_input = gets.chomp
+user_input.to_i
+
+if total1 >= 20
+  puts "You chose a large number!"
+else
+  puts "You chose a small number"
+end
