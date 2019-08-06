@@ -1,0 +1,48 @@
+# Candy List
+snickers = 1.00
+kitkat = 0.75
+reeces = 1.00
+skittles = 0.75
+gum = 0.50
+
+puts "How much money do you have?"
+user_money = gets.chomp.to_f
+
+puts "Well, this is the candy we have:"
+
+puts "Snickers.....#{snickers}"
+puts "KitKat.....#{kitkat}"
+puts "Reeces....#{reeces}"
+puts "Skittles.....#{skittles}"
+puts "Gum.....#{gum}"
+
+puts "So what will you have of the options listed?"
+user_choice = gets.chomp.downcase
+
+if user_choice == "snickers"
+  candy_cost = snickers
+  
+  elsif user_choice == "kitkat"
+  candy_cost = kitkat
+ 
+  elsif user_choice == "reeces"
+  candy_cost = reeces
+  
+  elsif user_choice == "skittles"
+  candy_cost = skittles
+
+  elsif user_choice == "gum"
+  candy_cost = gum
+
+end
+
+if user_money > candy_cost
+  remainder = user_money - candy_cost
+  puts "Here's your candy with $#{remainder} in change."
+
+  else
+
+  remainder
+  puts "Sorry, but you don't have enough money for that candy.  You need $#{candy_cost} to afford that choice and you only have #{user_money}."
+
+end
