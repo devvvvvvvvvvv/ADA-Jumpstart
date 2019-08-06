@@ -1,0 +1,36 @@
+# times loop
+
+puts "Let's play a numbers game.  How many numbers would you like to enter?"
+user_number = gets.chomp.to_i
+
+user_number.times do 
+  puts "Enter a positive number"
+  user_choice = gets.chomp.to_i
+
+  if user_choice % 3 == 0
+      puts "#{user_choice} is divisible by 3."
+    else
+    puts "#{user_choice} is not divisible by 3."
+  end 
+  
+
+end
+
+# while loop
+
+puts "Let's play a numbers game.  How many numbers would you like to enter?"
+user_number = gets.chomp.to_i
+
+while i < user_number do 
+  puts "Enter a positive number"
+  user_choice = gets.chomp.to_i
+
+  if user_choice % 3 == 0
+      puts "#{user_choice} is divisible by 3."
+    else
+    puts "#{user_choice} is not divisible by 3."
+  end 
+  
+  i += 1
+
+end
