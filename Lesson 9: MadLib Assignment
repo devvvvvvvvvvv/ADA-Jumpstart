@@ -1,0 +1,35 @@
+puts "Enter the following to complete this MadLib:"
+
+puts "Noun:"
+noun1 = gets.chomp.capitalize
+
+puts "Noun"
+noun2 = gets.chomp
+
+puts "Verb (past tense)"
+verb1 = gets.chomp
+
+puts "Verb (past tense)"
+verb2 = gets.chomp
+
+puts "Noun"
+noun3 = gets.chomp.capitalize
+
+puts "Adjective"
+adjetive1 = gets.chomp
+
+puts "Noun"
+noun4 = gets.chomp
+
+puts "Noun"
+noun5 = gets.chomp
+
+puts "Number"
+number = gets.chomp
+
+puts "Adjective"
+adjetive2 = gets.chomp
+
+
+
+"We just wrapped up the #{noun1} Festival and had a lot of enthusiastic viewers enjoy the #{noun2} show.  There were plenty of activities for the whole family including #{verb1} and #{verb2}.  Taking a dip in Lake #{noun3} was a welcome addition in keeping the guests cool over the #{adjetive1} weekend.  The favorite event of the festival was the #{noun4} toss which had a grand prize of a #{noun5} trophy awarded to an #{number} year old winner!  Please send an email with any personal reflections or #{adjetive2} stories of your time at the #{noun1} Festival to the editor."
